@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+    --breakpoint-mobile: 360px;
+    --breakpoint-tablet: 1129px;
+    --breakpoint-desktop: 1130px;
+}
+
+body {
+    background-color: whitesmoke;
+}

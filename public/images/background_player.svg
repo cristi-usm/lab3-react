@@ -1,0 +1,30 @@
+<svg width="360" height="403" viewBox="0 0 360 403" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_896_508)">
+<rect width="360" height="403" rx="24" fill="#FFDA16" style="fill:#FFDA16;fill:color(display-p3 1.0000 0.8533 0.0875);fill-opacity:1;"/>
+<g filter="url(#filter0_f_896_508)">
+<circle cx="181.253" cy="338.298" r="222.298" fill="#D6B100" style="fill:#D6B100;fill:color(display-p3 0.8410 0.6942 0.0000);fill-opacity:1;"/>
+</g>
+<g filter="url(#filter1_f_896_508)">
+<circle cx="95.3122" cy="464.828" r="169.312" fill="#FAF2CA" style="fill:#FAF2CA;fill:color(display-p3 0.9808 0.9476 0.7908);fill-opacity:1;"/>
+</g>
+<circle opacity="0.25" cx="179.251" cy="300.418" r="287.418" fill="#FFFAE1" style="fill:#FFFAE1;fill:color(display-p3 1.0000 0.9793 0.8813);fill-opacity:1;"/>
+<circle opacity="0.33" cx="179.252" cy="300.419" r="210.827" fill="#FFFAE1" style="fill:#FFFAE1;fill:color(display-p3 1.0000 0.9793 0.8813);fill-opacity:1;"/>
+<circle opacity="0.66" cx="179.251" cy="300.416" r="136.655" fill="#FFFAE1" style="fill:#FFFAE1;fill:color(display-p3 1.0000 0.9793 0.8813);fill-opacity:1;"/>
+<circle cx="179.251" cy="300.418" r="81.8316" fill="#FFFAE1" style="fill:#FFFAE1;fill:color(display-p3 1.0000 0.9793 0.8813);fill-opacity:1;"/>
+</g>
+<defs>
+<filter id="filter0_f_896_508" x="-167.53" y="-10.4851" width="697.565" height="697.565" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="63.2425" result="effect1_foregroundBlur_896_508"/>
+</filter>
+<filter id="filter1_f_896_508" x="-170.337" y="199.179" width="531.298" height="531.298" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="48.1685" result="effect1_foregroundBlur_896_508"/>
+</filter>
+<clipPath id="clip0_896_508">
+<rect width="360" height="403" rx="24" fill="white" style="fill:white;fill-opacity:1;"/>
+</clipPath>
+</defs>
+</svg>

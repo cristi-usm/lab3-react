@@ -1,12 +1,50 @@
-# Componente, Prop-uri & JSX - Implementare de UI Responsive  
+# React + TypeScript + Vite
 
-### 1. Inițiați un nou proiect *React* utilizând *Vite*.
-### 2. Dezvoltați și implementați o pagină web bazată pe proiectul individual realizat în cadrul cursului de *"Design UI/UX"*. Cei care nu au avut un astfel de curs, vor căuta și selecta un design ce trebuie aprobat de profesor. Fișierul *Figma* să fie inclus în proiect.
-### 3. Pagina trebuie sa fie responsive, să oferă o experiență optimă pe diverse dispozitive, de la telefoane mobile la tablete și desktopuri.
-### 4. Stilizarea paginii trebuie realizată folosind exclusiv *module CSS*. Este **interzisă** utilizarea bibliotecilor externe de stilizare, precum *Bootstrap*. 
-### 5. Pentru gestionarea rutelor și navigației în aplicația web, trebuie utilizat hook-ul implementat în cadrul lecțiilor sau implementarea unuia propriu.
-### 6. Informația repetitivă necesară de a fi afișată pe pagini trebuie să fie salvată în fișiere *.json*.  
-### 7. Definiți componente cât mai generice (ex: `Button`, `Card`, `Header`) care primesc date prin *props*.
-### 8. Utilizați **alias-uri** pentru ușurarea importărilor.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-### Exemplu de structură a unui astfel de proiect este [aici](https://github.com/cristi-usm/exemplu-lab3).
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+
+- Configure the top-level `parserOptions` property like this:
+
+```js
+export default tseslint.config({
+    languageOptions: {
+        // other options...
+        parserOptions: {
+            project: ["./tsconfig.node.json", "./tsconfig.app.json"],
+            tsconfigRootDir: import.meta.dirname,
+        },
+    },
+});
+```
+
+- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
+- Optionally add `...tseslint.configs.stylisticTypeChecked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+
+```js
+// eslint.config.js
+import react from "eslint-plugin-react";
+
+export default tseslint.config({
+    // Set the react version
+    settings: { react: { version: "18.3" } },
+    plugins: {
+        // Add the react plugin
+        react,
+    },
+    rules: {
+        // other rules...
+        // Enable its recommended rules
+        ...react.configs.recommended.rules,
+        ...react.configs["jsx-runtime"].rules,
+    },
+});
+```
