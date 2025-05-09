@@ -1,0 +1,24 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  
+  .card img {
+    width: 28px; 
+    height: 28px;
+    filter: invert(34%) sepia(12%) saturate(650%) hue-rotate(90deg) brightness(90%);
+  }
+  
+  .card h3 {
+    font-size: 1.1rem;
+    color: var(--charcoal-text);
+    font-weight: 500; 
+  }
+  
+  .card p {
+    font-size: 0.9rem;
+    color: var(--charcoal-text);
+  }
+  

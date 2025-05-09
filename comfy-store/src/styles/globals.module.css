@@ -1,0 +1,46 @@
+@import './variables.module.css';
+
+body {
+    background-color: var(--text-white);
+    color: var(--charcoal-text); 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  .mainContent {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 10rem;
+  }
+  
+  @media (max-width: 1400px) {
+    .mainContent {
+      padding: 0 8rem;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .mainContent {
+      padding: 0 6rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .mainContent {
+      padding: 0 4rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .mainContent {
+      padding: 0 2rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .mainContent {
+      padding: 0 1rem;
+    }
+  }
+  

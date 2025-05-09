@@ -1,0 +1,19 @@
+.bestsellers {
+    margin: 3rem 0;
+    padding: 0 2rem;
+  }
+  
+  .bestsellers h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--charcoal-text);
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: flex-start;
+    gap: 8rem; 
+    flex-wrap: wrap;
+    max-width: 960px; 
+    margin: 0 auto;
+  }

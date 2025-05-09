@@ -1,0 +1,16 @@
+:root {
+    --main-green: #52796f;
+    --text-white: #ffffff;
+    --soft-grey: #dee2e6;
+    --brand-green: #354f52;
+    --soft-green: #354f52; /* alias of Brand_Green */
+    --soft-green1: #cad2c5;
+    --creme: #efe5dc;
+    --charcoal-text: #253137;
+    --light-green: #cad2c5; /* alias of Soft_Green1 */
+    --cambridge-green: #253137; /* alias of Charcoal_Text */
+    --color: #253137; /* alias of Cambridge_Green */
+    --color-2: #253137; /* alias of Color */
+    --light-cambridge-green: #84a98c;
+  }
+  

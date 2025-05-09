@@ -1,0 +1,13 @@
+.section {
+    margin: 4rem 0;
+    padding: 0 2rem;
+    text-align: left; 
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: flex-start; 
+    gap: 3rem; 
+    margin-top: 2rem;
+  }
+  

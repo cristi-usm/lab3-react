@@ -1,0 +1,18 @@
+[
+    {
+      "icon": "science.svg",
+      "title": "Science meets design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris."
+    },
+    {
+      "icon": "comfort.svg",
+      "title": "Maximal comfort",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris."
+    },
+    {
+      "icon": "sustainability.svg",
+      "title": "Ethical and sustainable",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris."
+    }
+  ]
+  

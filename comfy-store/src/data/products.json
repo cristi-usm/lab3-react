@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "The Laid Back",
+      "image": "the-laid-back.jpg",
+      "price": "$200",
+      "features": [
+        { "icon": "leisure.svg", "text": "Leisure and relax" },
+        { "icon": "comfortable.svg", "text": "Comfortable for 6h" },
+        { "icon": "cotton.svg", "text": "Organic cotton" },
+        { "icon": "weight.svg", "text": "Weighs 16kg" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Scandinavian Sofa",
+      "image": "scandinavian-sofa.jpg",
+      "price": "$800",
+      "features": [
+        { "icon": "leisure.svg", "text": "Leisure and relax" },
+        { "icon": "comfortable.svg", "text": "Comfortable for 12h" },
+        { "icon": "cotton.svg", "text": "Organic cotton" },
+        { "icon": "weight.svg", "text": "Weighs 52kg" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "The Worker Bee",
+      "image": "the-worker-bee.jpg",
+      "price": "$250",
+      "features": [
+        { "icon": "leisure.svg", "text": "Work" },
+        { "icon": "comfortable.svg", "text": "Comfortable for 7h" },
+        { "icon": "cotton.svg", "text": "Vegan leather" },
+        { "icon": "weight.svg", "text": "Weighs 16kg" }
+      ]
+    }
+  ]
+  

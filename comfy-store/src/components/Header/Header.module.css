@@ -1,0 +1,89 @@
+.header {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* PROMO BAR */
+  .headerTop {
+    background-color: var(--main-green);
+    color: var(--text-white);
+    text-align: center;
+    font-size: 0.85rem;
+    padding: 0.3rem; /* mai subtire */
+  }
+  
+  /* MAIN HEADER */
+  .headerMain {
+    background-color: var(--creme);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .logo {
+    width: 50px;
+    height: auto;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    color: var(--charcoal-text);
+  }
+  
+  /* SEARCH BAR */
+  .search {
+    position: relative;
+    flex: 1;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search input {
+    width: 100%;
+    padding: 0.5rem 2.5rem 0.5rem 1rem; /* padding dreapta ca să las loc pentru icon */
+    border-radius: 10px;
+    border: 2px solid var(--charcoal-text);
+    background-color: #f8f9fa;
+    color: var(--charcoal-text);
+    font-size: 1rem;
+  }
+  
+  .search input::placeholder {
+    color: var(--charcoal-text);
+  }
+  
+  .search img {
+    position: absolute;
+    right: 1rem; /* fixează mai aproape sau mai departe de margine */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  /* ICONS AREA */
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .icons img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
