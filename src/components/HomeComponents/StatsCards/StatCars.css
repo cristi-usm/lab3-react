@@ -1,0 +1,45 @@
+.stat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  font-family: var(--font-main);
+}
+
+.icon-circle {
+  width: var(--icon-size);
+  height: var(--icon-size);
+  background-color: var(--primary-dark);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.stat-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.2rem 0;
+  color: var(--primary-dark);
+}
+
+.stat-description {
+  font-size: 0.9rem;
+  color: var(--text-gray);
+  line-height: 1.3;
+}
+
+/* all items */
+.stats-grid-container {
+  display: flex;
+  justify-content: center; /* Le centrează pe orizontală */
+  align-items: flex-start; /* Le aliniază la partea de sus */
+  gap: var(--gap-between-items);
+  padding: var(--section-padding);
+  flex-wrap: wrap; /* Esențial: dacă ecranul e mic, trec unul sub altul */
+  max-width: 1200px;
+  margin: 0 auto; /* Centrează întreg containerul în pagină */
+}

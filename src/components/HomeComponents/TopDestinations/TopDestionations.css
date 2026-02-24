@@ -1,0 +1,71 @@
+
+.destination-card {
+    position: relative;
+    width: 360px;
+    height: 480px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.destination-card:hover {
+    transform: scale(1.03);
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.price-tag {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    color: white;
+}
+
+.card-overlay h3 { margin: 0; font-size: 1.2rem; }
+.card-overlay p { margin: 5px 0; font-size: 0.8rem; opacity: 0.8; }
+.rating { color: #ffcc00; font-size: 0.9rem; }
+
+
+
+
+
+
+.destinations-section {
+    padding: 50px;
+    background-color: lightgrey;
+    border-radius: 30px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+

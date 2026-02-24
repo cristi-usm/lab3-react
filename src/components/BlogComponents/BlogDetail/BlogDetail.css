@@ -1,0 +1,221 @@
+/* Stiluri Generale Pagina */
+.blog-page-full {
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+    color: #333;
+    overflow-x: hidden;
+}
+
+/* 1. HERO SECTION */
+.hero-section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10%;
+    min-height: 80vh;
+}
+
+.hero-text-side {
+    flex: 1;
+    z-index: 10;
+}
+
+.hero-text-side h1 {
+    font-size: 5rem;
+    font-weight: 200;
+    letter-spacing: 12px;
+    margin: 0;
+    color: #222;
+}
+
+.hero-text-side h2 {
+    font-size: 4rem;
+    font-weight: 300;
+    margin-top: -10px;
+    color: #444;
+}
+
+.stats-row {
+    display: flex;
+    gap: 40px;
+    margin: 40px 0;
+}
+
+.stat-item b {
+    display: block;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.stat-item span {
+    font-size: 0.8rem;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid #ddd;
+    padding: 12px 30px;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-outline:hover {
+    background: #000;
+    color: #fff;
+}
+
+/* Image Stack Logic */
+.image-stack {
+    flex: 1;
+    position: relative;
+    height: 500px;
+}
+
+.stack-img {
+    position: absolute;
+    width: 320px;
+    height: 450px;
+    object-fit: cover;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.15);
+    border-radius: 4px;
+    transition: transform 0.4s ease;
+}
+
+.img-1 { z-index: 3; right: 10%; top: 0; }
+.img-2 { z-index: 2; right: 25%; top: 40px; }
+.img-3 { z-index: 1; right: 40%; top: 80px; }
+
+/* 2. CONTENT SPLIT */
+.split-container {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    padding: 100px 10%;
+}
+
+.split-container.reverse { flex-direction: row-reverse; }
+
+.image-wrapper {
+    flex: 1;
+    position: relative;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255,255,255,0.9);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    cursor: pointer;
+}
+
+.text-wrapper { flex: 1; }
+.text-wrapper .subtitle {
+    font-size: 0.8rem;
+    letter-spacing: 4px;
+    color: #999;
+}
+
+.text-wrapper h1 { font-size: 3.5rem; margin: 10px 0; }
+.text-wrapper p { color: #666; line-height: 1.8; margin-bottom: 30px; }
+
+.read-more-line {
+    background: none;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+/* 3. VERTICAL CARDS GRID */
+.popular-tours {
+    padding: 80px 10%;
+}
+
+.section-main-title {
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 8px;
+    margin-bottom: 60px;
+    font-weight: 300;
+}
+
+.tours-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+/* Vertical Card Styles */
+.vertical-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-wrapper {
+    position: relative;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-duration {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    padding: 5px 15px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.card-info h3 {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.card-desc {
+    font-size: 0.9rem;
+    color: #777;
+    line-height: 1.6;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+.view-tour-btn {
+    background: none;
+    border: none;
+    font-size: 0.7rem;
+    font-weight: bold;
+    cursor: pointer;
+}
