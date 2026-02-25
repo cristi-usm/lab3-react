@@ -1,0 +1,37 @@
+.header { margin-bottom: 3.5rem; }
+
+.tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.xl   { font-size: clamp(2.4rem, 5vw, 4rem);   }
+.lg   { font-size: clamp(1.8rem, 4vw, 2.8rem);  }
+.md   { font-size: clamp(1.3rem, 3vw, 1.9rem);  }
+
+.title {
+  font-family: var(--font-display);
+  font-weight: 300;
+  color: var(--text);
+  margin-bottom: 1.25rem;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: var(--text-2);
+  max-width: 540px;
+  line-height: 1.75;
+  font-weight: 300;
+}
+
+.center { text-align: center; }
+.center .subtitle { margin: 0 auto; }
+.right  { text-align: right; }
+.right  .subtitle { margin-left: auto; }

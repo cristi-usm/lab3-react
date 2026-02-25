@@ -1,0 +1,16 @@
+{
+  "name": "Crudu Cristian",
+  "email": "cristian.crudu@mail.com",
+  "university": "USM, Facultatea de Matematică și Informatică",
+  "photo": "https://usm.md/wp-content/uploads/5-240-768x1024.jpg",
+  "bio": "Student pasionat de programare și tehnologie. Îmi place să construiesc aplicații web și să învăț lucruri noi în fiecare zi.",
+  "skills": ["React", "JavaScript", "Java", "CSS", "Git"],
+  "achievements": [
+    { "id": 1, "icon": "🏆", "title": "Bursa Regală",         "desc": "Excelență academică și implicare în cercetare." },
+    { "id": 2, "icon": "⚛️", "title": "Curs React",           "desc": "Dezvoltarea aplicațiilor moderne cu React." },
+    { "id": 3, "icon": "🌍", "title": "Mobilitate Erasmus",   "desc": "Schimb academic la universitate europeană." },
+    { "id": 4, "icon": "🎤", "title": "Conferință USM",       "desc": "Prezentarea lucrărilor de licență 2024." },
+    { "id": 5, "icon": "🎨", "title": "Workshop UI/UX",       "desc": "Design centrat pe utilizator pentru web." },
+    { "id": 6, "icon": "💻", "title": "Proiect Open Source",  "desc": "Contribuție la comunitatea globală de dev." }
+  ]
+}

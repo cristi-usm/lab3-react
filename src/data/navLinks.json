@@ -1,0 +1,5 @@
+[
+  { "id": "home",    "label": "Acasă"    },
+  { "id": "about",   "label": "Despre"   },
+  { "id": "contact", "label": "Contact"  }
+]

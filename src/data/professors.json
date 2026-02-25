@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Titu Capcelea",
+    "title": "Profesor universitar",
+    "photo": "https://cdn.usm.md/department-it-bucket/teacher-profile-picture/titu-capcelea_pfp.png"
+  },
+  {
+    "id": 2,
+    "name": "Eugen Mindru",
+    "title": "Conferențiar universitar",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT29-FAypmEA9rdOhXGPrk-69H_3NFoIMqMgQ&s"
+  },
+  {
+    "id": 3,
+    "name": "Vladimir Cucu",
+    "title": "Profesor, Matematică",
+    "photo": "https://diez.md/wp-content/uploads/2015/12/VLADIMIR-CUCU-Matematic%C4%83.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Moraru Nicolae",
+    "title": "Profesor, Rust",
+    "photo": "https://avatars.githubusercontent.com/u/1633826?v=4"
+  },
+  {
+    "id": 5,
+    "name": "Dumitras Marius",
+    "title": "Profesor, Baze de Date",
+    "photo": "https://media.licdn.com/dms/image/v2/D4E03AQH8Zobwq1e8sw/profile-displayphoto-shrink_200_200/B4EZV7ue3yHgAY-/0/1741537537986?e=2147483647&v=beta&t=GAmYYQ9RbLChdkBaMYAljFrCgZuLTNv52pIOKF56hns"
+  }
+]
