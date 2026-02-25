@@ -1,0 +1,257 @@
+.hero {
+  padding: 10rem 2rem 5rem;
+  background: linear-gradient(to bottom, rgba(10,22,50,0.9), var(--color-dark)),
+    url('https://images.unsplash.com/photo-1530779253850-eb3a2e11ad93?w=1600&q=80') center/cover;
+  text-align: center;
+}
+
+.heroEyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.heroTitle {
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  letter-spacing: 0.08em;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.heroSubtitle {
+  color: rgba(255,255,255,0.55);
+  font-size: 1rem;
+  max-width: 480px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.infoCard {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px;
+  padding: 2.5rem;
+}
+
+.infoTitle {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.infoSubtitle {
+  color: rgba(255,255,255,0.5);
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.contactList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.contactItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.contactIconWrap {
+  width: 42px;
+  height: 42px;
+  background: rgba(232,160,32,0.1);
+  border: 1px solid rgba(232,160,32,0.25);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.contactItemContent {}
+
+.contactItemLabel {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 0.15rem;
+}
+
+.contactItemValue {
+  color: rgba(255,255,255,0.8);
+  font-size: 0.95rem;
+}
+
+.divider {
+  height: 1px;
+  background: rgba(255,255,255,0.08);
+  margin: 2rem 0;
+}
+
+.hoursGrid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.5rem 1rem;
+}
+
+.hoursLabel {
+  color: rgba(255,255,255,0.55);
+  font-size: 0.9rem;
+}
+
+.hoursValue {
+  color: var(--color-accent);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* Form */
+.formCard {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px;
+  padding: 2.5rem;
+}
+
+.formTitle {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.formSubtitle {
+  color: rgba(255,255,255,0.5);
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+.formGroup {
+  margin-bottom: 1.25rem;
+}
+
+.formLabel {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 0.5rem;
+}
+
+.formInput,
+.formSelect,
+.formTextarea {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: var(--radius);
+  color: var(--color-white);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  transition: border-color var(--transition);
+  outline: none;
+}
+
+.formInput:focus,
+.formSelect:focus,
+.formTextarea:focus {
+  border-color: var(--color-accent);
+}
+
+.formSelect {
+  appearance: none;
+  cursor: pointer;
+}
+
+.formTextarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.formDisclaimer {
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.35);
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.successMsg {
+  text-align: center;
+  padding: 2rem;
+}
+
+.successIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.successTitle {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+  color: var(--color-accent);
+}
+
+.successText {
+  color: rgba(255,255,255,0.6);
+  font-size: 0.9rem;
+}
+
+.mapSection {
+  background: rgba(255,255,255,0.02);
+  padding: 4rem 2rem;
+}
+
+.mapInner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+}
+
+.mapTitle {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.mapSubtitle {
+  color: rgba(255,255,255,0.5);
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+}
+
+.mapEmbed {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

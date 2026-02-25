@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "title": "Zbor cu avionul Sting",
+    "description": "Experimentați senzația unică a zborului la bordul avionului sportiv Sting. Un pasager + pilotul.",
+    "icon": "avion",
+    "image": "https://static.tildacdn.one/tild3434-3431-4934-a665-303739616666/stingro.png",
+    "prices": [
+      { "duration": "15 minute", "price": "1400 lei" },
+      { "duration": "30 minute", "price": "2200 lei" },
+      { "duration": "45 minute", "price": "2900 lei" },
+      { "duration": "60 minute", "price": "4000 lei" }
+    ],
+    "slug": "sting"
+  },
+  {
+    "id": 2,
+    "title": "Zbor cu avionul Cessna",
+    "description": "Zburați deasupra Moldovei la bordul clasicului Cessna. Până la 3 pasageri + pilotul.",
+    "icon": "avion",
+    "image": "https://static.tildacdn.one/tild6639-6366-4865-a664-346361373335/cessna-to.png",
+    "prices": [
+      { "duration": "15 minute", "price": "1800 lei" },
+      { "duration": "30 minute", "price": "3000 lei" },
+      { "duration": "45 minute", "price": "4200 lei" },
+      { "duration": "60 minute", "price": "5500 lei" }
+    ],
+    "slug": "cessna"
+  },
+  {
+    "id": 3,
+    "title": "Salt cu Parașuta",
+    "description": "Adrenalina pură! Sari din avion cu un instructor experimentat și simte libertatea absolută.",
+    "icon": "parasuta",
+    "image": "https://images.unsplash.com/photo-1601024445121-e5b82f020549?w=600&q=80",
+    "prices": [
+      { "duration": "Salt tandem", "price": "3500 lei" },
+      { "duration": "Video + foto", "price": "+800 lei" }
+    ],
+    "slug": "parasuta"
+  },
+  {
+    "id": 4,
+    "title": "Cursuri PPL",
+    "description": "Obțineți licența de pilot privat (PPL). Cursuri complete cu instructori certificați EASA.",
+    "icon": "licenta",
+    "image": "https://static.tildacdn.one/tild3039-3531-4831-a237-636139613734/unknown_291577649_12.jpg",
+    "prices": [
+      { "duration": "Teorie + practică", "price": "Detalii individual" }
+    ],
+    "slug": "ppl"
+  },
+  {
+    "id": 5,
+    "title": "Organizarea cererii în căsătorie",
+    "description": "Faceți o cerere de căsătorie de neuitat deasupra norilor. Vom organiza totul perfect.",
+    "icon": "casatorie",
+    "image": "https://static.tildacdn.one/tild3334-3939-4362-b936-313163336430/unknown_274337416_10.jpg",
+    "prices": [
+      { "duration": "Pachet complet", "price": "Detalii individual" }
+    ],
+    "slug": "casatorie"
+  },
+  {
+    "id": 6,
+    "title": "Gender Party Aerian",
+    "description": "Dezvăluiți sexul copilului cu stil, la bordul unui avion deasupra Moldovei.",
+    "icon": "petrecere",
+    "image": "https://static.tildacdn.one/tild3531-6665-4938-b063-656565363262/unknown_298931779_19.jpg",
+    "prices": [
+      { "duration": "Pachet complet", "price": "Detalii individual" }
+    ],
+    "slug": "gender-party"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  { "id": 1, "label": "Acasă", "path": "/" },
+  { "id": 2, "label": "Servicii", "path": "/servicii" },
+  { "id": 3, "label": "Echipa", "path": "/echipa" },
+  { "id": 4, "label": "Recenzii", "path": "/recenzii" },
+  { "id": 5, "label": "Contact", "path": "/contact" }
+]

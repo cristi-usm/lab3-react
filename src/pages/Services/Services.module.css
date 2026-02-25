@@ -1,0 +1,49 @@
+.hero {
+  padding: 10rem 2rem 5rem;
+  background: linear-gradient(to bottom, rgba(10,22,50,0.9), var(--color-dark)),
+    url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1600&q=80') center/cover;
+  text-align: center;
+}
+
+.heroEyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.heroTitle {
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  letter-spacing: 0.08em;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.heroSubtitle {
+  color: rgba(255,255,255,0.55);
+  font-size: 1rem;
+  max-width: 480px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

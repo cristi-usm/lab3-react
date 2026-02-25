@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Maria Popa",
+    "location": "Chișinău",
+    "rating": 5,
+    "text": "O experiență de vis! Am zburat cu Cessna de ziua mea și a fost cel mai frumos cadou primit vreodată. Pilotul a fost incredibil de prietenos și profesionist.",
+    "service": "Zbor Cessna",
+    "date": "Octombrie 2024",
+    "avatar": "MP"
+  },
+  {
+    "id": 2,
+    "name": "Ion Grosu",
+    "location": "Bălți",
+    "rating": 5,
+    "text": "Saltul cu parașuta a fost absolut fenomenal! Adrenalina pură, instructorul m-a pregătit perfect. Recomand cu căldură oricui caută o aventură adevărată.",
+    "service": "Salt cu Parașuta",
+    "date": "Septembrie 2024",
+    "avatar": "IG"
+  },
+  {
+    "id": 3,
+    "name": "Alina Dumbravă",
+    "location": "Chișinău",
+    "rating": 5,
+    "text": "Am organizat cererea de căsătorie cu ajutorul echipei Aero Team și a ieșit perfect! Soțul meu a fost șocat în cel mai bun sens. Mulțumim din suflet!",
+    "service": "Cerere în căsătorie",
+    "date": "August 2024",
+    "avatar": "AD"
+  },
+  {
+    "id": 4,
+    "name": "Vlad Cebanu",
+    "location": "Tiraspol",
+    "rating": 5,
+    "text": "Am luat cursul PPL și am primit licența în 8 luni. Instructorii sunt excepționali, echipamentul impecabil. Cel mai bun investiție din viața mea!",
+    "service": "Cursuri PPL",
+    "date": "Iulie 2024",
+    "avatar": "VC"
+  },
+  {
+    "id": 5,
+    "name": "Natalia Botnaru",
+    "location": "Orhei",
+    "rating": 5,
+    "text": "Zborul cu Sting-ul a fost incredibil! 30 de minute deasupra Moldovei, peisaje superbe. Recomand tuturor pentru un cadou inedit.",
+    "service": "Zbor Sting",
+    "date": "Iunie 2024",
+    "avatar": "NB"
+  },
+  {
+    "id": 6,
+    "name": "Dumitru Vrabie",
+    "location": "Cahul",
+    "rating": 5,
+    "text": "Gender Party de neuitat! Toată familia a fost prezentă și momentul dezvăluirii deasupra norilor a adus lacrimi de fericire. Profesionalism la cel mai înalt nivel.",
+    "service": "Gender Party",
+    "date": "Mai 2024",
+    "avatar": "DV"
+  }
+]

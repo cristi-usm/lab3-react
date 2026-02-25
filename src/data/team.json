@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Mokanu Serghei",
+    "role": "Pilot Principal & Fondator",
+    "experience": "15 ani experiență",
+    "license": "EASA CPL",
+    "hours": "4500+ ore de zbor",
+    "image": "https://static.tildacdn.one/tild6266-3035-4930-a135-623361613739/1.png",
+    "bio": "Pasionat de aviație din copilărie, Alexandru a transformat visul în realitate fondând Aero Team Moldova."
+  },
+  {
+    "id": 2,
+    "name": "Klyev Serghei",
+    "role": "Instructor de zbor",
+    "experience": "10 ani experiență",
+    "license": "EASA CPL/FI",
+    "hours": "2800+ ore de zbor",
+    "image": "https://static.tildacdn.one/tild3162-3335-4336-b761-666134633961/2.png",
+    "bio": "Instructor certificat EASA, Mihai a pregătit peste 200 de studenți care au obținut licența PPL."
+  },
+  {
+    "id": 3,
+    "name": "Kuzmenko Nikita",
+    "role": "Instructor Parașutism",
+    "experience": "8 ani experiență",
+    "license": "BPA D-License",
+    "hours": "1200+ salturi",
+    "image": "https://static.tildacdn.one/tild6662-3532-4433-b464-653333386662/3.png",
+    "bio": "Cu peste 1200 de salturi executate, Elena este cel mai experimentat instructor de parașutism din echipă."
+  },
+  {
+    "id": 4,
+    "name": "Kuzema Igor",
+    "role": "Pilot & Videograf",
+    "experience": "7 ani experiență",
+    "license": "EASA PPL",
+    "hours": "1600+ ore de zbor",
+    "image": "https://static.tildacdn.one/tild6531-3234-4938-b835-643331366437/4.png",
+    "bio": "Pilot și videograf profesionist, Andrei capturează cele mai spectaculoase momente ale zborurilor noastre."
+  }
+]

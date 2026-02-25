@@ -1,0 +1,55 @@
+.section {
+  padding: 6rem 2rem;
+  position: relative;
+}
+
+.sectionDark {
+  background: var(--color-dark);
+}
+
+.sectionAlt {
+  background: rgba(255,255,255,0.02);
+}
+
+.inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 0.75rem;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  letter-spacing: 0.05em;
+  line-height: 1.1;
+  color: var(--color-white);
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  color: rgba(255,255,255,0.5);
+  font-size: 1rem;
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 4rem 1.5rem;
+  }
+}
