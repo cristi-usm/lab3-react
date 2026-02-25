@@ -1,0 +1,10 @@
+{
+    "services": [
+        {"id": 1, "title": "Apartemen Terbaik", "info": "Memberikan list apartemen terbaik di seluruh Indonesia", "btnText":"lihat selengkapnya", "iconType":"pen"},
+        {"id": 2, "title": "Ruangan Modern", "info": "Memberikan kamar yang modern dan sesuai dengan impian anda", "btnText":"lihat selengkapnya", "iconType": "house"},
+        {"id": 3, "title": "Fasilitas Lengkap", "info": "Menyediakan semua fasilitas yang mendukung dan memadai", "btnText":"lihat selengkapnya", "iconType":"painter"},
+        {"id": 4, "title": "Kemanan Terjaga", "info": "Kemanan terbaik agar pengunjung merasa lebih aman", "btnText":"lihat selengkapnya", "iconType":"shield"},
+        {"id": 5, "title": "Lokasi Strategis", "info": "Lokasi strategis agar pengunjung merasa lebih nyaman", "btnText":"lihat selengkapnya", "iconType": "hotel"},
+        {"id": 6, "title": "Kuliner Terenak", "info": "Menyediakan kuliner khas cita rasa negara Indonesia", "btnText":"lihat selengkapnya", "iconType":"park"}
+    ]
+}

@@ -1,0 +1,25 @@
+.header {
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 60px;
+    position: absolute;
+    z-index: 10;
+}
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_bar ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.nav_bar ul li button {
+    background: none;
+    border: none;
+    color: #F3ECDC;
+    font-size: normal;
+    font-family: "Open Sans", sans-serif;
+}

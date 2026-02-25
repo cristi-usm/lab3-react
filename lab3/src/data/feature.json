@@ -1,0 +1,12 @@
+{
+    "features": [
+        {"id":1,"title": "Garansi Layanan", "info": "Mendapatkan keamanan", "iconType": "shield"},
+        {"id": 2, "title": "List Apartemen Terbaik", "info": "Apartemen terbaik di Indonesia", "iconType": "list"},
+        {"id": 3, "title": "Gratis Konsultasi", "info": "Tersedia konsultasi terbaik", "iconType": "msg"}
+    ],
+    "contact": [
+                {"id":1,"title": "Garansi Layanan", "info": "Mendapatkan keamanan", "iconType": "map"},
+        {"id": 2, "title": "List Apartemen Terbaik", "info": "Apartemen terbaik di Indonesia", "iconType": "letter"},
+        {"id": 3, "title": "Gratis Konsultasi", "info": "Tersedia konsultasi terbaik", "iconType": "phone"}
+    ]
+}

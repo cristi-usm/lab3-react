@@ -1,0 +1,21 @@
+{
+  "quickLinks": [
+    {"id": 1, "label": "Home", "iconType": "caret"},
+    {"id":2, "label": "Home us", "iconType": "caret"},
+    {"id": 3, "label": "Check-in Check-out", "iconType": "caret"},
+    {"id": 4, "label": "Layanan", "iconType": "caret"},
+    {"id": 5, "label": "Blog", "iconType": "caret"}
+  ],
+    "siteLinks": [
+    {"id": 1, "label": "Syarat dan ketentuan", "iconType": "caret"},
+    {"id": 2, "label": "Disclaimer", "iconType": "caret"},
+    {"id": 3, "label": "Hubungi kami", "iconType": "caret"},
+    {"id": 4, "label": "GDPR", "iconType": "caret"},
+    {"id": 5, "label": "Aturan pemakaian", "iconType": "caret"}
+  ],
+  "contactLinks": [
+    {"id": 1, "info": "Jakarta, Indonesia", "iconType": "location"},
+    {"id": 2, "info": "Hello@Email.com", "iconType": "mail"},
+    {"id": 3, "info": "( +62 ) 123 456 789", "iconType": "phone"}
+  ]
+}

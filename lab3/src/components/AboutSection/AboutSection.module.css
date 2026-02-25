@@ -1,0 +1,102 @@
+.container {
+    display: flex;
+    gap: 40px;
+    padding: 80px 60px;
+    background-color: #344E41; 
+    color: #F3ECDC;
+    max-width: 1400px;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+.quote_container{
+    flex: 1;
+    background-color: #3A5A40;
+    padding: 40px;
+    border-radius: 20px;
+}
+.qute_text {
+    font-size: 20px;
+}
+.main_container {
+    flex: 2;
+    display: grid;
+    grid-template-areas: 
+        "subtitle subtitle"
+        "title title"
+        "image features";
+    grid-template-columns: auto 1fr;
+    column-gap: 30px;
+    row-gap: 15px;
+}
+.subtitle { 
+    grid-area: subtitle; 
+    font-size: 13px; 
+    letter-spacing: 2px; 
+    margin: 0;
+}
+.title { 
+    grid-area: title; 
+    font-family: "Abril Fatface", serif; 
+    font-size: 40px; 
+    margin: 0 0 25px 0;
+}
+.img_frame {
+    grid-area: image;
+    background-color: white;
+    padding: 12px;
+    border-radius: 40px;
+    width: fit-content;
+}
+.img_frame img {
+    display: block;
+    width: 280px;
+    height: 300px;
+    border-radius: 30px;
+}
+.feature_item {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.feature_icon {
+    width: 35px; 
+    height: 35px; 
+}
+.feature_item h3 { 
+    margin: 0;
+    font-size: 18px;
+}
+.feature_item p { 
+    margin: 0;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.check_list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+@media (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+        padding: 60px 30px;
+    }
+}
+@media (max-width: 700px) {
+    .main_container {
+        grid-template-areas: 
+            "subtitle"
+            "title"
+            "image"
+            "features";
+        grid-template-columns: 1fr;
+    }
+    .img_frame img {
+        width: 100%;
+    }
+    .title {
+        font-size: 30px;
+    }
+}

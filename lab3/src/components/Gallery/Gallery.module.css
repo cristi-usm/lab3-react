@@ -1,0 +1,56 @@
+.container {
+    background-color: #F3ECDC;
+    padding: 80px 60px;
+    text-align: center;
+}
+.subtitle {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #588157;
+    margin-bottom: 10px;
+}
+.title {
+    font-family: "Abril Fatface", serif;
+    font-size: 36px;
+    color: #344E41;
+    margin-bottom: 50px;
+}
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.grid_item {
+    height: 250px;
+    overflow: hidden;
+    border-radius: 20px; 
+}
+.grid_item:nth-child(1) {
+    grid-column: span 6;
+}
+.grid_item:nth-child(2), .grid_item:nth-child(3) {
+    grid-column: span 3;
+}
+.grid_item:nth-child(4), .grid_item:nth-child(5), .grid_item:nth-child(6) {
+    grid-column: span 4;
+}
+.grid_item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media (max-width: 1000px) {
+    .grid_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 700px) {
+    .grid_container {
+        grid-template-columns: 1fr;
+    }
+    .wide {
+        grid-column: span 1;
+    }
+}

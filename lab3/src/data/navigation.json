@@ -1,0 +1,8 @@
+{
+    "navLinks": [
+        {"id": 1, "label": "HOME", "path": "home", "dropdown": false},
+        {"id": 2, "label": "ABOUT US", "path": "about", "dropdown": false},
+        {"id": 3, "label": "CHECK IN - CHECK OUT", "path": "booking", "dropdown": true},
+        {"id": 4, "label": "BLOG", "path": "blog", "dropdown": true}
+    ]
+}

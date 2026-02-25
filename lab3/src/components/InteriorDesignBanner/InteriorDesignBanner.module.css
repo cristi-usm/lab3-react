@@ -1,0 +1,31 @@
+.container {
+    background-color: #F3ECDC;
+    padding: 8px 60px 80px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.data_container {
+    background-image:linear-gradient(to right, rgba(52, 78, 65, 0.95) 25%, rgba(52, 78, 65, 0.3) 70%, transparent), url("@assets/interiorDesignBannerPhoto.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border-radius: 20px;
+    width: 80%;
+}
+.title {
+    font-family: "Abril Fatface", serif;
+    font-size: 36px;
+    color: #F3ECDC;
+    margin-bottom: 50px;
+}
+.subtitle {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #F3ECDC;
+    margin-bottom: 10px;
+}

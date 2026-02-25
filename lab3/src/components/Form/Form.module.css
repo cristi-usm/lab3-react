@@ -1,0 +1,66 @@
+.container {
+    background-color: #F3ECDC;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+}
+.form_container {
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 40px;
+}
+.title {
+    font-family: "Abril Fatface", serif;
+    font-size: 32px;
+    color: #2D2D2D;
+    margin-bottom: 10px;
+}
+.subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+.inputs_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+.input, .textarea {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.textarea {
+    margin-top: 25px;
+}
+input, textarea {
+    background-color: #F8F8F8;
+    border: none;
+    border-radius: 30px;
+    padding: 18px 25px;
+    font-size: 14px;
+    outline: none;
+}
+textarea {
+    height: 120px;
+    border-radius: 20px;
+}
+@media (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .form_container {
+        width: 100%;
+    }
+}
+@media (max-width: 700px) {
+    .inputs_grid {
+        grid-template-columns: 1fr;
+    }
+}
