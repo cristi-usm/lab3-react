@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Espresso",
+    "description": "Cafea intensă, servită într-o ceașcă mică.",
+    "image": "/assets/espresso.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Cappuccino",
+    "description": "Cafea cu lapte spumat și cacao presărată.",
+    "image": "/assets/cappuccino.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Latte",
+    "description": "Cafea cu mult lapte cremos și spumă fină.",
+    "image": "/assets/latte.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Mocha",
+    "description": "Cafea cu ciocolată și lapte, dulce și aromată.",
+    "image": "/assets/mocha.jpg"
+  }
+]
