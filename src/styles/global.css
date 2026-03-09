@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --alb:     #ffffff;
+  --negru:   #1a1a1a;
+  --auriu:   #c9a84c;
+  --crem:    #f5f0e8;
+  --gri:     #888888;
+  --font-titlu: 'Playfair Display', serif;
+  --font-text:  'Lato', sans-serif;
+}
+
+body {
+  font-family: var(--font-text);
+  color: var(--negru);
+  background: var(--alb);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}

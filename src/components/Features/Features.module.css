@@ -1,0 +1,39 @@
+.sectiune {
+  background: var(--crem);
+  padding: 60px 24px;
+}
+
+.grila {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.card {
+  text-align: center;
+}
+
+.icon {
+  font-size: 36px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.titlu {
+  font-family: var(--font-titlu);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 14px;
+  color: var(--gri);
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .grila { grid-template-columns: 1fr; gap: 32px; }
+}

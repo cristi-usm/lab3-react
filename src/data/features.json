@@ -1,0 +1,5 @@
+[
+  { "id": 1, "icon": "🚚", "titlu": "Livrare gratuita",  "text": "Livrare gratuita pentru comenzi peste 500$. Rapid si sigur oriunde in Moldova." },
+  { "id": 2, "icon": "💎", "titlu": "Calitate",          "text": "Bijuterii din materiale premium certificate. Fiecare piesa trece control de calitate." },
+  { "id": 3, "icon": "🛡️", "titlu": "Garantie",          "text": "Garantie 2 ani pentru toate produsele. Returnezi in 30 de zile fara intrebari." }
+]

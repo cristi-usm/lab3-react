@@ -1,0 +1,70 @@
+.card {
+  cursor: pointer;
+}
+
+.poza {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 3/4;
+  background: #f8f8f8;
+}
+
+.poza img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s;
+}
+
+/* Zoom la hover */
+.card:hover .poza img {
+  transform: scale(1.05);
+}
+
+/* Badge NOU */
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: var(--auriu);
+  color: var(--alb);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 4px 10px;
+}
+
+/* Buton apare la hover */
+.adauga {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(26, 26, 26, 0.9);
+  color: var(--alb);
+  border: none;
+  padding: 12px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transform: translateY(100%);
+  transition: transform 0.3s;
+}
+
+.card:hover .adauga {
+  transform: translateY(0);
+}
+
+/* Informatiile de jos */
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.pret {
+  font-family: var(--font-titlu);
+  font-weight: 600;
+}
