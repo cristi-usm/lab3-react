@@ -1,0 +1,8 @@
+[
+  { "id": 1, "nume": "Diamant-cosmic",     "pret": 2000, "imagine": "/src/assets/rings/ring-1.jpg", "nou": true  },
+  { "id": 2, "nume": "Riul de aur",        "pret": 4000, "imagine": "/src/assets/rings/ring-2.jpg", "nou": true  },
+  { "id": 3, "nume": "Mix de primavara",   "pret": 6000, "imagine": "/src/assets/rings/ring-3.jpg", "nou": true  },
+  { "id": 4, "nume": "Inelul Eternitatii", "pret": 3500, "imagine": "/src/assets/rings/ring-4.jpg", "nou": false },
+  { "id": 5, "nume": "Stelele Nordului",   "pret": 5000, "imagine": "/src/assets/rings/ring-5.jpg", "nou": false },
+  { "id": 6, "nume": "Cristal Alpin",      "pret": 2800, "imagine": "/src/assets/rings/ring-6.jpg", "nou": false }
+]

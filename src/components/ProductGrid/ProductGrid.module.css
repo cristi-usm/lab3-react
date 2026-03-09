@@ -1,0 +1,76 @@
+.sectiune {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 24px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+/* Cand invers=true, titlul si sagetile merg la dreapta */
+.invers .header {
+  align-items: flex-end;
+}
+
+.titlu {
+  font-family: var(--font-titlu);
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.grila {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.sageti {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.sagetiDreapta {
+  justify-content: flex-end;
+}
+
+.sageata {
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--negru);
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.sageata img {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+}
+
+.sageata:hover:not(:disabled) {
+  background: var(--negru);
+  /* Inverseaza culoarea iconiței la hover */
+  filter: invert(1);
+}
+
+.sageata:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* === MOBIL === */
+@media (max-width: 768px) {
+  .grila { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 480px) {
+  .grila { grid-template-columns: 1fr; }
+}

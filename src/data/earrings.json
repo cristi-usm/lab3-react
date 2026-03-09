@@ -1,0 +1,8 @@
+[
+  { "id": 1, "nume": "Diamant-cosmic", "pret": 2000, "imagine": "/src/assets/earrings/earring-1.jpg", "nou": true  },
+  { "id": 2, "nume": "Perle de Mare",  "pret": 2000, "imagine": "/src/assets/earrings/earring-2.jpg", "nou": true  },
+  { "id": 3, "nume": "Stele de Aur",   "pret": 2000, "imagine": "/src/assets/earrings/earring-3.jpg", "nou": true  },
+  { "id": 4, "nume": "Luna de Aur",    "pret": 3200, "imagine": "/src/assets/earrings/earring-4.jpg", "nou": false },
+  { "id": 5, "nume": "Cristal Aurora", "pret": 1800, "imagine": "/src/assets/earrings/earring-5.jpg", "nou": false },
+  { "id": 6, "nume": "Argint Pur",     "pret": 2500, "imagine": "/src/assets/earrings/earring-6.jpg", "nou": false }
+]

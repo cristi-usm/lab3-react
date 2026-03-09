@@ -1,0 +1,58 @@
+.footer {
+  border-top: 1px solid #eee;
+  padding: 24px;
+}
+
+.rand {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.linkuri {
+  display: flex;
+  gap: 20px;
+}
+
+.linkuri button {
+  background: none;
+  border: none;
+  font-size: 13px;
+  color: var(--negru);
+  transition: color 0.3s;
+}
+
+.linkuri button:hover {
+  color: var(--auriu);
+}
+
+.logo {
+  background: none;
+  border: none;
+  font-family: var(--font-titlu);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.telefon {
+  font-size: 13px;
+  color: var(--gri);
+}
+
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  color: var(--gri);
+  margin-top: 16px;
+  border-top: 1px solid #eee;
+  padding-top: 16px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
