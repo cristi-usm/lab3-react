@@ -1,0 +1,20 @@
+{
+  "stats": [
+    { "label": "Proiecte active", "value": "12", "trend": "+12%", "icon": "◈", "tone": "purple" },
+    { "label": "Task-uri finalizate", "value": "86", "trend": "+8%", "icon": "✓", "tone": "green" },
+    { "label": "Ore lucrate", "value": "28.5h", "trend": "+4%", "icon": "◷", "tone": "orange" },
+    { "label": "Colaboratori", "value": "18", "trend": "+2", "icon": "♧", "tone": "blue" }
+  ],
+  "projects": [
+    { "id": 1, "name": "Website redesign", "category": "Design & dezvoltare", "progress": 78, "color": "purple", "members": ["MI", "AS", "DP"], "due": "22 nov" },
+    { "id": 2, "name": "Campanie social media", "category": "Marketing", "progress": 54, "color": "orange", "members": ["MI", "EC"], "due": "28 nov" },
+    { "id": 3, "name": "Aplicație mobilă", "category": "Product development", "progress": 32, "color": "blue", "members": ["DP", "AS", "EC"], "due": "04 dec" },
+    { "id": 4, "name": "Identitate vizuală", "category": "Branding", "progress": 91, "color": "green", "members": ["MI", "AS"], "due": "18 nov" }
+  ],
+  "tasks": [
+    { "id": 1, "title": "Finalizează wireframe-ul", "project": "Website redesign", "time": "10:00", "completed": false },
+    { "id": 2, "title": "Review pentru postări", "project": "Campanie social media", "time": "13:30", "completed": true },
+    { "id": 3, "title": "Trimite prezentarea", "project": "Identitate vizuală", "time": "16:00", "completed": false },
+    { "id": 4, "title": "Planifică sprintul următor", "project": "Aplicație mobilă", "time": "17:30", "completed": false }
+  ]
+}
